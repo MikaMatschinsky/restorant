@@ -1,0 +1,24 @@
+.midle{
+    display:flex;
+    align-items:senter;
+    justify-content:center;
+}
+h4{
+     display:flex;
+    align-items:senter;
+    justify-content:center;
+}
+.food-items{
+    margin-left:5%;
+    background-color:black;
+    color:white;
+    margin-bottom:2%;
+    
+}
+h4:hover{
+    color:darkgrey;
+}
+.food-items:hover{
+    color:darkgrey;
+    border:3px solid red
+}
