@@ -1,19 +1,26 @@
 .midle{
     display:flex;
-    align-items:senter;
+    align-items:center;
     justify-content:center;
 }
 h4{
      display:flex;
-    align-items:senter;
+    align-items:center;
     justify-content:center;
 }
+
+
+
 .food-items{
-    margin-left:5%;
+    margin-left:2.5%;
     background-color:black;
     color:white;
     margin-bottom:2%;
+    margin-right:2.5%;
     
+}
+.food-items img{
+   width:100%;
 }
 h4:hover{
     color:darkgrey;
@@ -21,4 +28,22 @@ h4:hover{
 .food-items:hover{
     color:darkgrey;
     border:3px solid red
+}
+.contackt{
+      display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:3%;
+    background-color:darkgrey;
+    color:black;
+}
+.informations{
+     display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:3%;
+    background-color:Black;
+    color:white;
+    height:100px;
+
 }
