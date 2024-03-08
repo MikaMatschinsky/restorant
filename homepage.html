@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="styles-2.css">
 </head>
 
-<body style="background-color:powderblue;">
+<body id='darkblue' style="background-color:powderblue;">
 <div class='navigation-bar'>
    <a class='links' id='home' href='#'>home<a/>
    <a class='links' href='#menu'>menu</a>
@@ -59,8 +59,15 @@
 <h1>Mika matschinsky <br> 017183743987<br>miksblablabla@gmail.com</h1>
 </div>
 <div class='informations'>
-<span style='font-size:25px'>informations</span>
-
+<span class='information-text' style='font-size:25px'>This restorand is not a masterwork its a piece of s**t</span>
+   <div class='button'>
+        <button onClick='darkblue()'>dark mode</button>
+      <script>
+      function darkMode () {
+      document.getElementById('darkblue').style.background-color='darkblue'
+}
+      </script>
+   </div>
 </div>
 </body>
 </html>
