@@ -12,12 +12,12 @@
    <a class='links' href='#menu'>menu</a>
    <a class='links' href='#contackt'>contackt</a>
 </div>
-<h2 class='title'>The Masterwork Restorant</h2>
+<h2 id='whiteText2' class='title'>The Masterwork Restorant</h2>
 <div class='midle'>
 <img style="width:100%" src='https://picsum.photos/1000/354'>
 </div>
 <p>
-<h3 class='midle' style='font-size:20px'>Menu</h3>
+<h3 id='whiteText1' class='midle' style='font-size:20px'>Menu</h3>
 </p>
 <div class="food-menu-container" id='menu'>
 	<div class='midle'>
@@ -56,19 +56,28 @@
 </div>
 
 <div class='contackt' id='contackt'>
-<h1>Mika matschinsky <br> 017183743987<br>miksblablabla@gmail.com</h1>
+<p>Mika matschinsky <br> 017183743987<br>miksblablabla@gmail.com</p>
 </div>
 <div class='informations'>
-<span class='information-text' style='font-size:25px'>This restorand is not a masterwork its a piece of s**t</span>
+<span class='information-text'>This restorand is not a masterwork its a piece of s**t</span>
    <div class='button'>
-        <button onClick='darkblue()'>dark mode</button>
-      <script>
-      function darkMode () {
-      document.getElementById('darkblue').style.background-color='darkblue'
-}
-      </script>
+        <button onClick='darkMode()'>dark mode</button>
+        <button onClick='lightMode()'>light Mode</button>
    </div>
 </div>
+<script>
+      function darkMode () {
+      document.getElementById('darkblue').style.backgroundColor='darkblue';
+      document.getElementById('whiteText1').style.color='white';
+      document.getElementById('whiteText2').style.color='white';
+}
+      function lightMode () {
+      document.getElementById('whiteText1').style.color='black';
+      document.getElementById('whiteText2').style.color='black';
+      document.getElementById('darkblue').style.backgroundColor='powderblue';
+}
+
+      </script>
 </body>
 </html>
 
